@@ -4,19 +4,19 @@ pipeline {
 	stages {
 		stage("Build") {
 			steps {
-				myNewFunction('Build')
+				myNewFunction('Build2')
 				
 			}
 		}
 		stage("Test") {
 			steps {
-				myNewFunction('Test')
+				myNewFunction('Test2')
 				
 			}
 		}
 		stage("Deploy") {
 			steps {
-				myNewFunction('Deploy')
+				myNewFunction('Deploy2')
 				
 			}
 		}
